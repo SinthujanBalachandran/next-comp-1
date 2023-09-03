@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Rubik:wght@400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.fleet--clip {
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
+}
